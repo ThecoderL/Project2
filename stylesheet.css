@@ -19,6 +19,11 @@ resume {
     border-top: 12px solid RGB(48, 117, 156) ;
 }
 
+section{
+    /* padding-top: 1rem; */
+    padding-bottom: 1.5rem;
+}
+
 .tab-padding{
     padding-left: 1rem;
     padding-top: 0rem;
@@ -31,8 +36,8 @@ resume {
     padding-top: 0rem;
 }
 
-.pseduo-comp{
-    padding-left: 4rem;
+.pseudo-comp{
+    padding-left: 3.75rem;
 }
 
 h1 {
@@ -46,5 +51,9 @@ h2{
 }
 
 .bold{
-    font-weight: 700;
+    font-weight: 600;
+}
+
+.slight{
+    font-weight: 400;
 }
