@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    font-family: "Poppins", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem
+}
+
+resume {
+    background-color: white;
+    padding: 4rem;
+    border-top: 12px solid RGB(48, 117, 156) ;
+}
+
+.tab-padding{
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+
+.tab-padding-column{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+
+.pseduo-comp{
+    padding-left: 4rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    padding-bottom: 0;
+}
+
+h2{
+    font-size: 1.5rem;
+    color: RGB(48, 117, 156);
+}
+
+.bold{
+    font-weight: 700;
+}
