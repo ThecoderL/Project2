@@ -2,14 +2,18 @@
 
 html{
     font-family: "Poppins", serif;
+    box-sizing: border-box; 
+    h1, h2, p, ul, li, span{
+        margin-top: 0;
+    }
 }
 
 body {
     display: flex;
     flex-direction: column;
     background-color: #E5E5E5;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
     padding-top: 8rem
 }
 
@@ -20,9 +24,12 @@ resume {
 }
 
 section{
-    /* padding-top: 1rem; */
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
+/* 
+.spacer{
+
+} */
 
 .tab-padding{
     padding-left: 1rem;
@@ -32,21 +39,28 @@ section{
 .tab-padding-column{
     display: flex;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-top: 0rem;
 }
 
 .pseudo-comp{
-    padding-left: 3.75rem;
+    padding-left: 3.5rem;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Font */
 
 h1 {
     font-size: 2.25rem;
     padding-bottom: 0;
+    margin: 0;
 }
 
 h2{
     font-size: 1.5rem;
+    margin-bottom: 0;
     color: RGB(48, 117, 156);
 }
 
@@ -56,4 +70,9 @@ h2{
 
 .slight{
     font-weight: 400;
+}
+
+.blue-span{
+    color: RGB(48, 117, 156);
+    font-weight: 600;
 }
